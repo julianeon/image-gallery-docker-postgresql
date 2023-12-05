@@ -1,0 +1,10 @@
+  db_init:
+    image: postgres:13
+    volumes:
+      - ./db_init:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: your_db_user
+      POSTGRES_PASSWORD: your_db_password
+      POSTGRES_DB: your_db_name
+    depends_on:
+      - database
