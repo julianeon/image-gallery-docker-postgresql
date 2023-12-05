@@ -1,6 +1,6 @@
 # About 
 
-Image server Docker project.
+Image forum Docker project.
 
-In progress, not yet functional.
+In progress, not yet working.
 
